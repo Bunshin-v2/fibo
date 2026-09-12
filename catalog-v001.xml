@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/ACTUS/ACTUSControlledVocabulary/" uri="./ACTUS/ACTUSControlledVocabulary.rdf"/>
+    <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/ACTUS/ACTUSContractTermMapping/" uri="./ACTUS/ACTUSContractTermMapping.rdf"/>
+    <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/ACTUS/ACTUSContractTerms/" uri="./ACTUS/ACTUSContractTerms.rdf"/>
+    <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/ACTUS/ACTUSTaxonomy/" uri="./ACTUS/ACTUSTaxonomy.rdf"/>
+    <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/ACTUS/MetadataACTUS/" uri="./ACTUS/MetadataACTUS.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/BE/AllBE/" uri="./BE/AllBE.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/" uri="./BE/AllBE-Europe.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-ExampleIndividuals/" uri="./BE/AllBE-ExampleIndividuals.rdf"/>
@@ -8,8 +11,6 @@
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-NorthAmericanExamples/" uri="./BE/AllBE-NorthAmericanExamples.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-ReferenceIndividuals/" uri="./BE/AllBE-ReferenceIndividuals.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/" uri="./BE/MetadataBE.rdf"/>
-    <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations/" uri="./BE/Corporations/Corporations.rdf"/>
-    <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/MetadataBECorporations/" uri="./BE/Corporations/MetadataBECorporations.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/BE/FunctionalEntities/FunctionalEntities/" uri="./BE/FunctionalEntities/FunctionalEntities.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/BE/FunctionalEntities/Publishers/" uri="./BE/FunctionalEntities/Publishers.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/BE/FunctionalEntities/MetadataBEFunctionalEntities/" uri="./BE/FunctionalEntities/MetadataBEFunctionalEntities.rdf"/>
@@ -37,8 +38,6 @@
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/" uri="./BE/LegalEntities/LegalPersons.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LEIEntities/" uri="./BE/LegalEntities/LEIEntities.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/MetadataBELegalEntities/" uri="./BE/LegalEntities/MetadataBELegalEntities.rdf"/>
-    <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/NorthAmericanEntities/USExampleEntities/" uri="./BE/LegalEntities/NorthAmericanEntities/USExampleEntities.rdf"/>
-    <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/NorthAmericanEntities/USExampleExecutives/" uri="./BE/LegalEntities/NorthAmericanEntities/USExampleExecutives.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/BE/OwnershipAndControl/MetadataBEOwnershipAndControl/" uri="./BE/OwnershipAndControl/MetadataBEOwnershipAndControl.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/BE/OwnershipAndControl/CorporateControl/" uri="./BE/OwnershipAndControl/CorporateControl.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/BE/OwnershipAndControl/Executives/" uri="./BE/OwnershipAndControl/Executives.rdf"/>
@@ -95,8 +94,17 @@
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/SwapsIndividuals/" uri="./DER/DerivativesContracts/SwapsIndividuals.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/" uri="./DER/RateDerivatives/RateDerivatives.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/" uri="./DER/RateDerivatives/IRSwaps.rdf"/>
-    <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwapExampleIndividuals/" uri="./DER/RateDerivatives/IRSwapExampleIndividuals.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/MetadataDERRateDerivatives/" uri="./DER/RateDerivatives/MetadataDERRateDerivatives.rdf"/>
+    <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/EXMP/LegalEntities/DowJonesIndustrialAverageCompanies/" uri="./EXMP/LegalEntities/DowJonesIndustrialAverageCompanies.rdf"/>
+    <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/EXMP/LegalEntities/DowJonesIndustrialAverageExecutives/" uri="./EXMP/LegalEntities/DowJonesIndustrialAverageExecutives.rdf"/>
+	<uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/EXMP/LegalEntities/MetadataEXMPLegalEntities/" uri="./EXMP/LegalEntities/MetadataEXMPLegalEntities.rdf"/>
+	<uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/EXMP/MetadataEXMP/" uri="./EXMP/MetadataEXMP.rdf"/>
+    <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/EXMP/LegalEntities/FinancialInstitutionExamples/" uri="./EXMP/LegalEntities/FinancialInstitutionExamples.rdf"/>
+    <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/EXMP/LegalEntities/MarketsAndExchangesExamples/" uri="./EXMP/LegalEntities/MarketsAndExchangesExamples.rdf"/>
+    <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/EXMP/Securities/EquitiesExamples/" uri="./EXMP/Securities/EquitiesExamples.rdf"/>
+    <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/EXMP/Securities/EquityIndexExamples/" uri="./EXMP/Securities/EquityIndexExamples.rdf"/>
+	<uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/EXMP/Securities/IRSwapExamples/" uri="./EXMP/Securities/IRSwapExamples.rdf"/>
+	<uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/EXMP/Securities/MetadataEXMPSecurities/" uri="./EXMP/Securities/MetadataEXMPSecurities.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FBC/AllFBC/" uri="./FBC/AllFBC.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FBC/AllFBC-Europe/" uri="./FBC/AllFBC-Europe.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FBC/AllFBC-EuropeAndNorthAmerica/" uri="./FBC/AllFBC-EuropeAndNorthAmerica.rdf"/>
@@ -118,6 +126,7 @@
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCenters/" uri="./FBC/FunctionalEntities/BusinessCenters.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/" uri="./FBC/FunctionalEntities/BusinessCentersIndividuals.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessRegistries/" uri="./FBC/FunctionalEntities/BusinessRegistries.rdf"/>
+    <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/CommercialRegistrationAuthorities/" uri="./FBC/FunctionalEntities/CommercialRegistrationAuthorities.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/EuropeanEntities/EUFinancialServicesEntities/" uri="./FBC/FunctionalEntities/EuropeanEntities/EUFinancialServicesEntities.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/EuropeanEntities/EURegulatoryAgencies/" uri="./FBC/FunctionalEntities/EuropeanEntities/EURegulatoryAgencies.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/EuropeanEntities/EuropeanFinancialServicesEntitiesIndividuals/" uri="./FBC/FunctionalEntities/EuropeanEntities/EuropeanFinancialServicesEntitiesIndividuals.rdf"/>
@@ -128,13 +137,9 @@
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/MetadataFBCFunctionalEntities/" uri="./FBC/FunctionalEntities/MetadataFBCFunctionalEntities.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/NorthAmericanEntities/CAFinancialServicesEntities/" uri="./FBC/FunctionalEntities/NorthAmericanEntities/CAFinancialServicesEntities.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/NorthAmericanEntities/CARegulatoryAgencies/" uri="./FBC/FunctionalEntities/NorthAmericanEntities/CARegulatoryAgencies.rdf"/>
-    <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/NorthAmericanEntities/USExampleIndividuals/" uri="./FBC/FunctionalEntities/NorthAmericanEntities/USExampleIndividuals.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/NorthAmericanEntities/USFinancialServicesEntities/" uri="./FBC/FunctionalEntities/NorthAmericanEntities/USFinancialServicesEntities.rdf"/>
-    <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/NorthAmericanEntities/USFinancialServicesEntitiesIndividuals/" uri="./FBC/FunctionalEntities/NorthAmericanEntities/USFinancialServicesEntitiesIndividuals.rdf"/>
-    <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/NorthAmericanEntities/USMarketsAndExchangesIndividuals/" uri="./FBC/FunctionalEntities/NorthAmericanEntities/USMarketsAndExchangesIndividuals.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/NorthAmericanEntities/USNationalInformationCenterControlledVocabularies/" uri="./FBC/FunctionalEntities/NorthAmericanEntities/USNationalInformationCenterControlledVocabularies.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/NorthAmericanEntities/USRegulatoryAgencies/" uri="./FBC/FunctionalEntities/NorthAmericanEntities/USRegulatoryAgencies.rdf"/>
-    <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/RegistrationAuthorities/" uri="./FBC/FunctionalEntities/RegistrationAuthorities.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/RegulatoryAgencies/" uri="./FBC/FunctionalEntities/RegulatoryAgencies.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/ClientsAndAccounts/" uri="./FBC/ProductsAndServices/ClientsAndAccounts.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/" uri="./FBC/ProductsAndServices/FinancialProductsAndServices.rdf"/>
@@ -143,6 +148,7 @@
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FND/AllFND-NorthAmerica/" uri="./FND/AllFND-NorthAmerica.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/" uri="./FND/MetadataFND.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/" uri="./FND/Accounting/AccountingEquity.rdf"/>
+    <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CashFlows/" uri="./FND/Accounting/CashFlows.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/" uri="./FND/Accounting/CurrencyAmount.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/" uri="./FND/Accounting/ISO4217-CurrencyCodes.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/MetadataFNDAccounting/" uri="./FND/Accounting/MetadataFNDAccounting.rdf"/>
@@ -167,13 +173,11 @@
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/" uri="./FND/DatesAndTimes/Occurrences.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/MetadataFNDGoalsAndObjectives/" uri="./FND/GoalsAndObjectives/MetadataFNDGoalsAndObjectives.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/" uri="./FND/GoalsAndObjectives/Objectives.rdf"/>
-    <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/" uri="./FND/Law/Jurisdiction.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/" uri="./FND/Law/LegalCapacity.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCore/" uri="./FND/Law/LegalCore.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FND/Law/MetadataFNDLaw/" uri="./FND/Law/MetadataFNDLaw.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/FormalOrganizations/" uri="./FND/Organizations/FormalOrganizations.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/MetadataFNDOrganizations/" uri="./FND/Organizations/MetadataFNDOrganizations.rdf"/>
-    <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/" uri="./FND/Organizations/Organizations.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/Control/" uri="./FND/OwnershipAndControl/Control.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/MetadataFNDOwnershipAndControl/" uri="./FND/OwnershipAndControl/MetadataFNDOwnershipAndControl.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/Ownership/" uri="./FND/OwnershipAndControl/Ownership.rdf"/>
@@ -181,8 +185,6 @@
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FND/Parties/MetadataFNDParties/" uri="./FND/Parties/MetadataFNDParties.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/" uri="./FND/Parties/Parties.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/" uri="./FND/Places/Addresses.rdf"/>
-    <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/" uri="./FND/Places/Facilities.rdf"/>
-    <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/" uri="./FND/Places/Locations.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FND/Places/RealProperty/" uri="./FND/Places/RealProperty.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FND/Places/MetadataFNDPlaces/" uri="./FND/Places/MetadataFNDPlaces.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/" uri="./FND/Places/NorthAmerica/USPostalServiceAddresses.rdf"/>
@@ -217,7 +219,6 @@
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/MarketDataProviders/" uri="./IND/InterestRates/MarketDataProviders.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/MetadataINDInterestRates/" uri="./IND/InterestRates/MetadataINDInterestRates.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/BasketIndices/" uri="./IND/MarketIndices/BasketIndices.rdf"/>
-    <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/EquityIndexExampleIndividuals/" uri="./IND/MarketIndices/EquityIndexExampleIndividuals.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/" uri="./IND/MarketIndices/MetadataINDMarketIndices.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/IND/MetadataIND/" uri="./IND/MetadataIND.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/LOAN/AllLOAN/" uri="./LOAN/AllLOAN.rdf"/>
@@ -229,7 +230,7 @@
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/" uri="./LOAN/LoansSpecific/CardAccounts.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CommercialLoans/" uri="./LOAN/LoansSpecific/CommercialLoans.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/ConsumerLoans/" uri="./LOAN/LoansSpecific/ConsumerLoans.rdf"/>
-	<uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/GreenLoans/" uri="./LOAN/LoansSpecific/GreenLoans.rdf"/>
+    <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/GreenLoans/" uri="./LOAN/LoansSpecific/GreenLoans.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/" uri="./LOAN/LoansSpecific/LoanProducts.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/" uri="./LOAN/LoansSpecific/MarineFinance.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MetadataLOANLoansSpecific/" uri="./LOAN/LoansSpecific/MetadataLOANLoansSpecific.rdf"/>
@@ -270,7 +271,6 @@
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/TradedShortTermDebt/" uri="./SEC/Debt/TradedShortTermDebt.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/DepositaryReceipts/" uri="./SEC/Equities/DepositaryReceipts.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityCFIClassificationIndividuals/" uri="./SEC/Equities/EquityCFIClassificationIndividuals.rdf"/>
-    <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquitiesExampleIndividuals/" uri="./SEC/Equities/EquitiesExampleIndividuals.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/" uri="./SEC/Equities/EquityInstruments.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/MetadataSECEquities/" uri="./SEC/Equities/MetadataSECEquities.rdf"/>
     <uri id="User Entered Import Resolution" name="https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/CollectiveInvestmentVehicles/" uri="./SEC/Funds/CollectiveInvestmentVehicles.rdf"/>

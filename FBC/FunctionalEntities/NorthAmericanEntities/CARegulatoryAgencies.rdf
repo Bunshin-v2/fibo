@@ -4,6 +4,7 @@
 	<!ENTITY cmns-col "https://www.omg.org/spec/Commons/Collections/">
 	<!ENTITY cmns-cxtdsg "https://www.omg.org/spec/Commons/ContextualDesignators/">
 	<!ENTITY cmns-doc "https://www.omg.org/spec/Commons/Documents/">
+	<!ENTITY cmns-dsg "https://www.omg.org/spec/Commons/Designators/">
 	<!ENTITY cmns-id "https://www.omg.org/spec/Commons/Identifiers/">
 	<!ENTITY cmns-loc "https://www.omg.org/spec/Commons/Locations/">
 	<!ENTITY cmns-org "https://www.omg.org/spec/Commons/Organizations/">
@@ -11,19 +12,17 @@
 	<!ENTITY cmns-rga "https://www.omg.org/spec/Commons/RegulatoryAgencies/">
 	<!ENTITY cmns-rlcmp "https://www.omg.org/spec/Commons/RolesAndCompositions/">
 	<!ENTITY dct "http://purl.org/dc/terms/">
-	<!ENTITY fibo-be-corp-corp "https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations/">
 	<!ENTITY fibo-be-ge-caj "https://spec.edmcouncil.org/fibo/ontology/BE/GovernmentEntities/NorthAmericanJurisdiction/CAGovernmentEntitiesAndJurisdictions/">
 	<!ENTITY fibo-be-ge-ge "https://spec.edmcouncil.org/fibo/ontology/BE/GovernmentEntities/GovernmentEntities/">
+	<!ENTITY fibo-be-le-cb "https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/CorporateBodies/">
 	<!ENTITY fibo-be-le-fbo "https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/FormalBusinessOrganizations/">
 	<!ENTITY fibo-be-le-lei "https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LEIEntities/">
 	<!ENTITY fibo-fbc-fct-bci "https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/">
 	<!ENTITY fibo-fbc-fct-breg "https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessRegistries/">
-	<!ENTITY fibo-fbc-fct-cafse "https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/NorthAmericanEntities/CAFinancialServicesEntities/">
 	<!ENTITY fibo-fbc-fct-cajrga "https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/NorthAmericanEntities/CARegulatoryAgencies/">
+	<!ENTITY fibo-fbc-fct-cra "https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/CommercialRegistrationAuthorities/">
 	<!ENTITY fibo-fbc-fct-fse "https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/">
-	<!ENTITY fibo-fbc-fct-usfsind "https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/NorthAmericanEntities/USFinancialServicesEntitiesIndividuals/">
 	<!ENTITY fibo-fbc-pas-caa "https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/ClientsAndAccounts/">
-	<!ENTITY fibo-fnd-pas-pas "https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/ProductsAndServices/">
 	<!ENTITY fibo-fnd-plc-adr "https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/">
 	<!ENTITY fibo-fnd-pty-pty "https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/">
 	<!ENTITY fibo-fnd-rel-rel "https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/">
@@ -41,6 +40,7 @@
 	xmlns:cmns-col="https://www.omg.org/spec/Commons/Collections/"
 	xmlns:cmns-cxtdsg="https://www.omg.org/spec/Commons/ContextualDesignators/"
 	xmlns:cmns-doc="https://www.omg.org/spec/Commons/Documents/"
+	xmlns:cmns-dsg="https://www.omg.org/spec/Commons/Designators/"
 	xmlns:cmns-id="https://www.omg.org/spec/Commons/Identifiers/"
 	xmlns:cmns-loc="https://www.omg.org/spec/Commons/Locations/"
 	xmlns:cmns-org="https://www.omg.org/spec/Commons/Organizations/"
@@ -48,19 +48,17 @@
 	xmlns:cmns-rga="https://www.omg.org/spec/Commons/RegulatoryAgencies/"
 	xmlns:cmns-rlcmp="https://www.omg.org/spec/Commons/RolesAndCompositions/"
 	xmlns:dct="http://purl.org/dc/terms/"
-	xmlns:fibo-be-corp-corp="https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations/"
 	xmlns:fibo-be-ge-caj="https://spec.edmcouncil.org/fibo/ontology/BE/GovernmentEntities/NorthAmericanJurisdiction/CAGovernmentEntitiesAndJurisdictions/"
 	xmlns:fibo-be-ge-ge="https://spec.edmcouncil.org/fibo/ontology/BE/GovernmentEntities/GovernmentEntities/"
+	xmlns:fibo-be-le-cb="https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/CorporateBodies/"
 	xmlns:fibo-be-le-fbo="https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/FormalBusinessOrganizations/"
 	xmlns:fibo-be-le-lei="https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LEIEntities/"
 	xmlns:fibo-fbc-fct-bci="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/"
 	xmlns:fibo-fbc-fct-breg="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessRegistries/"
-	xmlns:fibo-fbc-fct-cafse="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/NorthAmericanEntities/CAFinancialServicesEntities/"
 	xmlns:fibo-fbc-fct-cajrga="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/NorthAmericanEntities/CARegulatoryAgencies/"
+	xmlns:fibo-fbc-fct-cra="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/CommercialRegistrationAuthorities/"
 	xmlns:fibo-fbc-fct-fse="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/"
-	xmlns:fibo-fbc-fct-usfsind="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/NorthAmericanEntities/USFinancialServicesEntitiesIndividuals/"
 	xmlns:fibo-fbc-pas-caa="https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/ClientsAndAccounts/"
-	xmlns:fibo-fnd-pas-pas="https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/ProductsAndServices/"
 	xmlns:fibo-fnd-plc-adr="https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/"
 	xmlns:fibo-fnd-pty-pty="https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/"
 	xmlns:fibo-fnd-rel-rel="https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/"
@@ -76,7 +74,7 @@
 	<owl:Ontology rdf:about="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/NorthAmericanEntities/CARegulatoryAgencies/">
 		<rdfs:label>Canadian Regulatory Agencies Ontology</rdfs:label>
 		<dct:abstract>This ontology extends the primary regulatory agencies ontology in FBC with additional regulators that are specific to the United States and augments certain U.S. financial services entities based on who regulates them.</dct:abstract>
-		<dct:license>Copyright (c) 2016-2025 EDM Council, Inc.
+		<dct:license>Copyright (c) 2016-2026 EDM Association dba EDM Council, Inc.
 Copyright (c) 2016-2025 Object Management Group, Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &apos;Software&apos;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
@@ -86,16 +84,15 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED &apos;AS IS&apos;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 		
 		See https://opensource.org/licenses/MIT.</dct:license>
-		<owl:imports rdf:resource="https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations/"/>
 		<owl:imports rdf:resource="https://spec.edmcouncil.org/fibo/ontology/BE/GovernmentEntities/GovernmentEntities/"/>
 		<owl:imports rdf:resource="https://spec.edmcouncil.org/fibo/ontology/BE/GovernmentEntities/NorthAmericanJurisdiction/CAGovernmentEntitiesAndJurisdictions/"/>
+		<owl:imports rdf:resource="https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/CorporateBodies/"/>
 		<owl:imports rdf:resource="https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/FormalBusinessOrganizations/"/>
 		<owl:imports rdf:resource="https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LEIEntities/"/>
 		<owl:imports rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/"/>
 		<owl:imports rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessRegistries/"/>
+		<owl:imports rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/CommercialRegistrationAuthorities/"/>
 		<owl:imports rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/"/>
-		<owl:imports rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/NorthAmericanEntities/CAFinancialServicesEntities/"/>
-		<owl:imports rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/NorthAmericanEntities/USFinancialServicesEntitiesIndividuals/"/>
 		<owl:imports rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/ClientsAndAccounts/"/>
 		<owl:imports rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/"/>
 		<owl:imports rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/"/>
@@ -104,6 +101,7 @@ THE SOFTWARE IS PROVIDED &apos;AS IS&apos;, WITHOUT WARRANTY OF ANY KIND, EXPRES
 		<owl:imports rdf:resource="https://www.omg.org/spec/Commons/AnnotationVocabulary/"/>
 		<owl:imports rdf:resource="https://www.omg.org/spec/Commons/Collections/"/>
 		<owl:imports rdf:resource="https://www.omg.org/spec/Commons/ContextualDesignators/"/>
+		<owl:imports rdf:resource="https://www.omg.org/spec/Commons/Designators/"/>
 		<owl:imports rdf:resource="https://www.omg.org/spec/Commons/Documents/"/>
 		<owl:imports rdf:resource="https://www.omg.org/spec/Commons/Identifiers/"/>
 		<owl:imports rdf:resource="https://www.omg.org/spec/Commons/Locations/"/>
@@ -113,7 +111,7 @@ THE SOFTWARE IS PROVIDED &apos;AS IS&apos;, WITHOUT WARRANTY OF ANY KIND, EXPRES
 		<owl:imports rdf:resource="https://www.omg.org/spec/Commons/RolesAndCompositions/"/>
 		<owl:imports rdf:resource="https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"/>
 		<owl:imports rdf:resource="https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CA/"/>
-		<owl:versionIRI rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/20250301/FunctionalEntities/NorthAmericanEntities/CARegulatoryAgencies/"/>
+		<owl:versionIRI rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/20260701/FunctionalEntities/NorthAmericanEntities/CARegulatoryAgencies/"/>
 		<skos:changeNote>The https://spec.edmcouncil.org/fibo/ontology/FBC/20180801/FunctionalEntities/NorthAmericanEntities/CARegulatoryAgencies.rdf version of this ontology was added via the FIBO 2.0 RFC.</skos:changeNote>
 		<skos:changeNote>The https://spec.edmcouncil.org/fibo/ontology/FBC/20180801/FunctionalEntities/NorthAmericanEntities/CARegulatoryAgenciess.rdf version of this ontology was modified to reflect revisions to the GLEIF LEI representation for validation level.</skos:changeNote>
 		<skos:changeNote>The https://spec.edmcouncil.org/fibo/ontology/FBC/20190101/FunctionalEntities/NorthAmericanEntities/CARegulatoryAgenciess.rdf version of this ontology was revised to update the GLEIF LEI registration information for the Bank of Canada, eliminate duplication of concepts in LCC, simplify addresses, and merge countries with locations in FND.</skos:changeNote>
@@ -126,17 +124,22 @@ THE SOFTWARE IS PROVIDED &apos;AS IS&apos;, WITHOUT WARRANTY OF ANY KIND, EXPRES
 		<skos:changeNote>The https://spec.edmcouncil.org/fibo/ontology/FBC/20230101/FunctionalEntities/NorthAmericanEntities/CARegulatoryAgencies.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG&apos;s Languages, Countries and Codes (LCC) and to eliminate redundancies in FIBO as appropriate.</skos:changeNote>
 		<skos:changeNote>The https://spec.edmcouncil.org/fibo/ontology/FBC/20230301/FunctionalEntities/NorthAmericanEntities/CARegulatoryAgencies.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).</skos:changeNote>
 		<skos:changeNote>The https://spec.edmcouncil.org/fibo/ontology/FBC/20240101/FunctionalEntities/NorthAmericanEntities/CARegulatoryAgencies.rdf version of the ontology was modified to replace additional content that is now available in the OMG Commons Ontology Library (Commons) v1.2 (FND-389).</skos:changeNote>
+		<skos:changeNote>The https://spec.edmcouncil.org/fibo/ontology/FBC/20250301/FunctionalEntities/NorthAmericanEntities/CARegulatoryAgencies.rdf version of the ontology was modified to further reflect changes made in Commons v1.2 (FBC-338) and eliminate unused references and streamline representation (SEC-205).</skos:changeNote>
+		<skos:changeNote>The https://spec.edmcouncil.org/fibo/ontology/FBC/20251001/FunctionalEntities/NorthAmericanEntities/CARegulatoryAgencies.rdf version of the ontology was modified to merge details from the old corporations ontology into corporate bodies for consistency and useability (BE-259).</skos:changeNote>
+		<skos:changeNote>The https://spec.edmcouncil.org/fibo/ontology/FBC/20251002/FunctionalEntities/NorthAmericanEntities/CARegulatoryAgencies.rdf version of the ontology was modified to integrate content from the new Commercial Registration Authorities ontology, thus eliminating certain circular dependencies (FND-407).</skos:changeNote>
+		<skos:changeNote>The https://spec.edmcouncil.org/fibo/ontology/FBC/20260301/FunctionalEntities/NorthAmericanEntities/CARegulatoryAgencies.rdf version of the ontology was modified to to replace references to the now deprecated hasTag property in Relations with its equivalent in OMG Commons (FND-412).</skos:changeNote>
 		<fibo-fnd-utl-av:hasMaturityLevel rdf:resource="&fibo-fnd-utl-av;Release"/>
-		<cmns-av:copyright>Copyright (c) 2016-2025 EDM Council, Inc.</cmns-av:copyright>
-		<cmns-av:copyright>Copyright (c) 2016-2025 Object Management Group, Inc.</cmns-av:copyright>
+		<cmns-av:copyright>Copyright (c) 2017-2025 Object Management Group, Inc.</cmns-av:copyright>
+		<cmns-av:copyright>Copyright (c) 2017-2026 EDM Association dba EDM Council, Inc.</cmns-av:copyright>
 	</owl:Ontology>
 	
 	<owl:NamedIndividual rdf:about="https://rdf.gleif.org/L1/L-549300PN6MKI0CLP4T28-LEI">
 		<rdf:type rdf:resource="&fibo-be-le-lei;LegalEntityIdentifier"/>
 		<rdfs:label>Bank of Canada legal entity identifier</rdfs:label>
 		<skos:definition>legal entity identifier for the Bank of Canada</skos:definition>
-		<fibo-fnd-rel-rel:hasTag>549300PN6MKI0CLP4T28</fibo-fnd-rel-rel:hasTag>
+		<cmns-dsg:hasTag>549300PN6MKI0CLP4T28</cmns-dsg:hasTag>
 		<cmns-id:identifies rdf:resource="&fibo-fbc-fct-cajrga;BankOfCanada"/>
+		<cmns-ra:isRegisteredBy rdf:resource="&fibo-fbc-fct-cra;BusinessEntityData"/>
 	</owl:NamedIndividual>
 	
 	<owl:NamedIndividual rdf:about="&fibo-fbc-fct-cajrga;BankOfCanada">
@@ -145,7 +148,6 @@ THE SOFTWARE IS PROVIDED &apos;AS IS&apos;, WITHOUT WARRANTY OF ANY KIND, EXPRES
 		<rdfs:label xml:lang="fr">Banque du Canada</rdfs:label>
 		<rdfs:isDefinedBy rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/NorthAmericanEntities/CARegulatoryAgencies/"/>
 		<skos:definition>central bank of Canada</skos:definition>
-		<fibo-be-ge-ge:hasJurisdiction rdf:resource="&fibo-be-ge-caj;CanadianJurisdiction"/>
 		<fibo-be-le-fbo:hasHeadquartersAddress rdf:resource="&fibo-fbc-fct-cajrga;BankOfCanadaHeadOfficeAddress"/>
 		<fibo-fnd-rel-rel:hasLegalName xml:lang="en">Bank of Canada</fibo-fnd-rel-rel:hasLegalName>
 		<fibo-fnd-rel-rel:hasLegalName xml:lang="fr">Banque du Canada</fibo-fnd-rel-rel:hasLegalName>
@@ -155,6 +157,7 @@ THE SOFTWARE IS PROVIDED &apos;AS IS&apos;, WITHOUT WARRANTY OF ANY KIND, EXPRES
  The Bank provides liquidity to the financial system, gives policy advice to the federal government on the design and development of the system, oversees major clearing and settlement systems, and provides banking services to these systems and their participants.</cmns-av:explanatoryNote>
 		<cmns-col:isPartOf rdf:resource="&fibo-be-ge-caj;GovernmentOfCanada"/>
 		<cmns-org:hasWebsite rdf:datatype="&xsd;anyURI">https://www.bankofcanada.ca/</cmns-org:hasWebsite>
+		<cmns-rga:hasJurisdiction rdf:resource="&fibo-be-ge-caj;CanadianJurisdiction"/>
 	</owl:NamedIndividual>
 	
 	<owl:NamedIndividual rdf:about="&fibo-fbc-fct-cajrga;BankOfCanadaHeadOfficeAddress">
@@ -204,7 +207,7 @@ THE SOFTWARE IS PROVIDED &apos;AS IS&apos;, WITHOUT WARRANTY OF ANY KIND, EXPRES
 	</owl:Class>
 	
 	<owl:NamedIndividual rdf:about="&fibo-fbc-fct-cajrga;BusinessNumberRegistrationIdentifierScheme">
-		<rdf:type rdf:resource="&fibo-be-corp-corp;RegistrationIdentifierScheme"/>
+		<rdf:type rdf:resource="&fibo-be-le-cb;RegistrationIdentifierScheme"/>
 		<rdf:type rdf:resource="&fibo-fnd-pty-pty;TaxIdentificationScheme"/>
 		<rdfs:label>Canada Revenue Agency business number registration identifier scheme</rdfs:label>
 		<rdfs:isDefinedBy rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/NorthAmericanEntities/CARegulatoryAgencies/"/>
@@ -217,7 +220,6 @@ THE SOFTWARE IS PROVIDED &apos;AS IS&apos;, WITHOUT WARRANTY OF ANY KIND, EXPRES
 		<rdfs:isDefinedBy rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/NorthAmericanEntities/CARegulatoryAgencies/"/>
 		<rdfs:seeAlso rdf:resource="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/registering-your-business/you-need-a-business-number-a-program-account.html"/>
 		<skos:definition>Canada Revenue Agency service for the registration of business entities</skos:definition>
-		<fibo-fnd-pas-pas:isProvisionedBy rdf:resource="&fibo-fbc-fct-cajrga;CanadianBusinessTaxRegistrar"/>
 		<cmns-org:isProvidedBy rdf:resource="&fibo-fbc-fct-cajrga;CanadianBusinessTaxRegistrar"/>
 	</owl:NamedIndividual>
 	
@@ -228,7 +230,6 @@ THE SOFTWARE IS PROVIDED &apos;AS IS&apos;, WITHOUT WARRANTY OF ANY KIND, EXPRES
 		<skos:definition>Canada Revenue Agency business number registry</skos:definition>
 		<cmns-av:explanatoryNote>No public access.</cmns-av:explanatoryNote>
 		<cmns-org:isManagedBy rdf:resource="&fibo-fbc-fct-cajrga;CanadianBusinessTaxRegistrar"/>
-		<cmns-rga:isGovernedBy rdf:resource="&fibo-be-ge-caj;CanadianJurisdiction"/>
 	</owl:NamedIndividual>
 	
 	<owl:NamedIndividual rdf:about="&fibo-fbc-fct-cajrga;CanadaRevenueAgency">
@@ -237,7 +238,6 @@ THE SOFTWARE IS PROVIDED &apos;AS IS&apos;, WITHOUT WARRANTY OF ANY KIND, EXPRES
 		<rdfs:label xml:lang="en">Canada Revenue Agency</rdfs:label>
 		<rdfs:isDefinedBy rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/NorthAmericanEntities/CARegulatoryAgencies/"/>
 		<skos:definition>taxation authority of the Government of Canada</skos:definition>
-		<fibo-be-ge-ge:hasJurisdiction rdf:resource="&fibo-be-ge-caj;CanadianJurisdiction"/>
 		<fibo-be-le-fbo:hasHeadquartersAddress rdf:resource="&fibo-fbc-fct-cajrga;CanadaRevenueAgencyHeadOfficeAddress"/>
 		<fibo-fnd-rel-rel:hasLegalName xml:lang="fr">Agence du revenu du Canada</fibo-fnd-rel-rel:hasLegalName>
 		<fibo-fnd-rel-rel:hasLegalName xml:lang="en">Canada Revenue Agency</fibo-fnd-rel-rel:hasLegalName>
@@ -245,6 +245,7 @@ THE SOFTWARE IS PROVIDED &apos;AS IS&apos;, WITHOUT WARRANTY OF ANY KIND, EXPRES
 		<cmns-av:explanatoryNote>This agency administers tax laws for the Canadian government and for several of the provinces and territories of Canada.</cmns-av:explanatoryNote>
 		<cmns-col:isPartOf rdf:resource="&fibo-be-ge-caj;GovernmentOfCanada"/>
 		<cmns-org:hasWebsite rdf:datatype="&xsd;anyURI">https://www.canada.ca/en/revenue-agency.html</cmns-org:hasWebsite>
+		<cmns-rga:hasJurisdiction rdf:resource="&fibo-be-ge-caj;CanadianJurisdiction"/>
 	</owl:NamedIndividual>
 	
 	<owl:NamedIndividual rdf:about="&fibo-fbc-fct-cajrga;CanadaRevenueAgencyHeadOfficeAddress">
@@ -310,7 +311,7 @@ THE SOFTWARE IS PROVIDED &apos;AS IS&apos;, WITHOUT WARRANTY OF ANY KIND, EXPRES
 	</owl:Class>
 	
 	<owl:NamedIndividual rdf:about="&fibo-fbc-fct-cajrga;CorporationIncomeTaxNumberIdentifierScheme">
-		<rdf:type rdf:resource="&fibo-be-corp-corp;RegistrationIdentifierScheme"/>
+		<rdf:type rdf:resource="&fibo-be-le-cb;RegistrationIdentifierScheme"/>
 		<rdfs:label>Canada Revenue Agency corporation income tax number identifier scheme</rdfs:label>
 		<rdfs:isDefinedBy rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/NorthAmericanEntities/CARegulatoryAgencies/"/>
 		<skos:definition>registration identifier scheme for corporation income tax numbers defined by the Canada Revenue Agency for the registration of a business or legal entity</skos:definition>
@@ -323,7 +324,6 @@ THE SOFTWARE IS PROVIDED &apos;AS IS&apos;, WITHOUT WARRANTY OF ANY KIND, EXPRES
 		<rdfs:isDefinedBy rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/NorthAmericanEntities/CARegulatoryAgencies/"/>
 		<rdfs:seeAlso rdf:resource="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/account-register.html"/>
 		<skos:definition>Canada Revenue Agency service for the registration of corporation income tax accounts</skos:definition>
-		<fibo-fnd-pas-pas:isProvisionedBy rdf:resource="&fibo-fbc-fct-cajrga;CanadianBusinessTaxRegistrar"/>
 		<cmns-org:isProvidedBy rdf:resource="&fibo-fbc-fct-cajrga;CanadianBusinessTaxRegistrar"/>
 	</owl:NamedIndividual>
 	
@@ -350,7 +350,7 @@ THE SOFTWARE IS PROVIDED &apos;AS IS&apos;, WITHOUT WARRANTY OF ANY KIND, EXPRES
 	</owl:NamedIndividual>
 	
 	<owl:NamedIndividual rdf:about="&fibo-fbc-fct-cajrga;GoodsServicesTaxHarmonizedSalesTaxRegistrationIdentifierScheme">
-		<rdf:type rdf:resource="&fibo-be-corp-corp;RegistrationIdentifierScheme"/>
+		<rdf:type rdf:resource="&fibo-be-le-cb;RegistrationIdentifierScheme"/>
 		<rdfs:label>Canada Revenue Agency Goods and Services Tax / Harmonized Sales Tax registration number identifier scheme</rdfs:label>
 		<rdfs:isDefinedBy rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/NorthAmericanEntities/CARegulatoryAgencies/"/>
 		<skos:definition>registration identifier scheme for GST/HST accounts defined by the Canada Revenue Agency for the registration of a business or legal entity</skos:definition>
@@ -394,7 +394,6 @@ THE SOFTWARE IS PROVIDED &apos;AS IS&apos;, WITHOUT WARRANTY OF ANY KIND, EXPRES
 		<rdfs:isDefinedBy rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/NorthAmericanEntities/CARegulatoryAgencies/"/>
 		<rdfs:seeAlso rdf:resource="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/account-register.html"/>
 		<skos:definition>Canada Revenue Agency service for the registration of GST/HST accounts</skos:definition>
-		<fibo-fnd-pas-pas:isProvisionedBy rdf:resource="&fibo-fbc-fct-cajrga;CanadianBusinessTaxRegistrar"/>
 		<cmns-org:isProvidedBy rdf:resource="&fibo-fbc-fct-cajrga;CanadianBusinessTaxRegistrar"/>
 	</owl:NamedIndividual>
 	
@@ -427,7 +426,7 @@ THE SOFTWARE IS PROVIDED &apos;AS IS&apos;, WITHOUT WARRANTY OF ANY KIND, EXPRES
 	</owl:Class>
 	
 	<owl:NamedIndividual rdf:about="&fibo-fbc-fct-cajrga;ImportExportProgramNumberIdentifierScheme">
-		<rdf:type rdf:resource="&fibo-be-corp-corp;RegistrationIdentifierScheme"/>
+		<rdf:type rdf:resource="&fibo-be-le-cb;RegistrationIdentifierScheme"/>
 		<rdfs:label>Canada Revenue Agency import export program number identifier scheme</rdfs:label>
 		<rdfs:isDefinedBy rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/NorthAmericanEntities/CARegulatoryAgencies/"/>
 		<skos:definition>registration identifier scheme for an import export program number defined by the Canada Revenue Agency for the registration of a business or legal entity</skos:definition>
@@ -440,7 +439,6 @@ THE SOFTWARE IS PROVIDED &apos;AS IS&apos;, WITHOUT WARRANTY OF ANY KIND, EXPRES
 		<rdfs:isDefinedBy rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/NorthAmericanEntities/CARegulatoryAgencies/"/>
 		<rdfs:seeAlso rdf:resource="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/registering-your-business/register.html"/>
 		<skos:definition>Canada Revenue Agency service for the registration of import export program number accounts</skos:definition>
-		<fibo-fnd-pas-pas:isProvisionedBy rdf:resource="&fibo-fbc-fct-cajrga;CanadianBusinessTaxRegistrar"/>
 		<cmns-org:isProvidedBy rdf:resource="&fibo-fbc-fct-cajrga;CanadianBusinessTaxRegistrar"/>
 	</owl:NamedIndividual>
 	
@@ -455,7 +453,7 @@ THE SOFTWARE IS PROVIDED &apos;AS IS&apos;, WITHOUT WARRANTY OF ANY KIND, EXPRES
 	</owl:NamedIndividual>
 	
 	<owl:NamedIndividual rdf:about="&fibo-fbc-fct-cajrga;InformationReturnsIdentifierScheme">
-		<rdf:type rdf:resource="&fibo-be-corp-corp;RegistrationIdentifierScheme"/>
+		<rdf:type rdf:resource="&fibo-be-le-cb;RegistrationIdentifierScheme"/>
 		<rdfs:label>Canada Revenue Agency information return program number identifier scheme</rdfs:label>
 		<rdfs:isDefinedBy rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/NorthAmericanEntities/CARegulatoryAgencies/"/>
 		<skos:definition>registration identifier scheme for information return program numbers defined by the Canada Revenue Agency for the registration of a business or legal entity</skos:definition>
@@ -496,7 +494,6 @@ THE SOFTWARE IS PROVIDED &apos;AS IS&apos;, WITHOUT WARRANTY OF ANY KIND, EXPRES
 		<rdfs:isDefinedBy rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/NorthAmericanEntities/CARegulatoryAgencies/"/>
 		<rdfs:seeAlso rdf:resource="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/registering-your-business/register.html"/>
 		<skos:definition>Canada Revenue Agency service for the registration of an information return program number accounts</skos:definition>
-		<fibo-fnd-pas-pas:isProvisionedBy rdf:resource="&fibo-fbc-fct-cajrga;CanadianBusinessTaxRegistrar"/>
 		<cmns-org:isProvidedBy rdf:resource="&fibo-fbc-fct-cajrga;CanadianBusinessTaxRegistrar"/>
 	</owl:NamedIndividual>
 	
@@ -516,12 +513,11 @@ THE SOFTWARE IS PROVIDED &apos;AS IS&apos;, WITHOUT WARRANTY OF ANY KIND, EXPRES
 		<rdfs:isDefinedBy rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/NorthAmericanEntities/CARegulatoryAgencies/"/>
 		<rdfs:seeAlso rdf:resource="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/How-open-payroll-account.html"/>
 		<skos:definition>Canada Revenue Agency service for the registration of payroll deductions program number accounts</skos:definition>
-		<fibo-fnd-pas-pas:isProvisionedBy rdf:resource="&fibo-fbc-fct-cajrga;CanadianBusinessTaxRegistrar"/>
 		<cmns-org:isProvidedBy rdf:resource="&fibo-fbc-fct-cajrga;CanadianBusinessTaxRegistrar"/>
 	</owl:NamedIndividual>
 	
 	<owl:NamedIndividual rdf:about="&fibo-fbc-fct-cajrga;PayrollDeductionsProgramIdentifierScheme">
-		<rdf:type rdf:resource="&fibo-be-corp-corp;RegistrationIdentifierScheme"/>
+		<rdf:type rdf:resource="&fibo-be-le-cb;RegistrationIdentifierScheme"/>
 		<rdfs:label>Canada Revenue Agency payroll deductions program number identifier scheme</rdfs:label>
 		<rdfs:isDefinedBy rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/NorthAmericanEntities/CARegulatoryAgencies/"/>
 		<skos:definition>registration identifier scheme for payroll deductions program number defined by the Canada Revenue Agency for the registration of a business or legal entity</skos:definition>
@@ -595,7 +591,7 @@ THE SOFTWARE IS PROVIDED &apos;AS IS&apos;, WITHOUT WARRANTY OF ANY KIND, EXPRES
 	</owl:Class>
 	
 	<owl:NamedIndividual rdf:about="&fibo-fbc-fct-cajrga;RegisteredCharityProgramNumberIdentifierScheme">
-		<rdf:type rdf:resource="&fibo-be-corp-corp;RegistrationIdentifierScheme"/>
+		<rdf:type rdf:resource="&fibo-be-le-cb;RegistrationIdentifierScheme"/>
 		<rdfs:label>Canada Revenue Agency registered charity program number identifier scheme</rdfs:label>
 		<rdfs:isDefinedBy rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/NorthAmericanEntities/CARegulatoryAgencies/"/>
 		<skos:definition>registration identifier scheme for registered charity program numbers defined by the Canada Revenue Agency for the registration of a business or legal entity</skos:definition>
@@ -608,7 +604,6 @@ THE SOFTWARE IS PROVIDED &apos;AS IS&apos;, WITHOUT WARRANTY OF ANY KIND, EXPRES
 		<rdfs:isDefinedBy rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/NorthAmericanEntities/CARegulatoryAgencies/"/>
 		<rdfs:seeAlso rdf:resource="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/registering-your-business/register.html"/>
 		<skos:definition>Canada Revenue Agency service for the registration of a registered charity program number accounts</skos:definition>
-		<fibo-fnd-pas-pas:isProvisionedBy rdf:resource="&fibo-fbc-fct-cajrga;CanadianBusinessTaxRegistrar"/>
 		<cmns-org:isProvidedBy rdf:resource="&fibo-fbc-fct-cajrga;CanadianBusinessTaxRegistrar"/>
 	</owl:NamedIndividual>
 	
